@@ -1,0 +1,17 @@
+{
+  "name": "@liniers/adictive-ds",
+  "version": "0.1.0",
+  "description": "Adictive Design System – design tokens",
+  "style": "build/css/index.css",
+  "files": ["build"],
+  "scripts": {
+    "build": "node sd.config.js",
+    "prepare": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.9.2"
+  }
+}
