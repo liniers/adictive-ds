@@ -491,7 +491,7 @@
   "sem": {
     "accent": {
       "primary": {
-        "value": "{core.mora.30}",
+        "value": "{core.global.0}",
         "type": "color"
       },
       "on-primary": {
