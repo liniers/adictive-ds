@@ -1,171 +1,169 @@
 {
   "_comment": "This file was generated automatically by Supernova.io and should not be changed manually. To modify the format or content of this file, please contact your design system team.",
-  "dimension": {
-    "core": {
-      "100": {
-        "value": "8px",
+  "core": {
+    "100": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "150": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "175": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "200": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "300": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "450": {
+      "value": "36px",
+      "type": "dimension"
+    },
+    "600": {
+      "value": "48px",
+      "type": "dimension"
+    },
+    "1500": {
+      "value": "120px",
+      "type": "dimension"
+    },
+    "3100": {
+      "value": "248px",
+      "type": "dimension"
+    },
+    "4200": {
+      "value": "336px",
+      "type": "dimension"
+    },
+    "4500": {
+      "value": "360px",
+      "type": "dimension"
+    },
+    "6000": {
+      "value": "480px",
+      "type": "dimension"
+    },
+    "7500": {
+      "value": "1040px",
+      "type": "dimension"
+    },
+    "9600": {
+      "value": "768px",
+      "type": "dimension"
+    },
+    "12800": {
+      "value": "1024px",
+      "type": "dimension"
+    },
+    "18000": {
+      "value": "1440px",
+      "type": "dimension"
+    },
+    "000": {
+      "value": "0px",
+      "type": "dimension"
+    },
+    "025": {
+      "value": "2px",
+      "type": "dimension"
+    },
+    "050": {
+      "value": "4px",
+      "type": "dimension"
+    }
+  },
+  "sem": {
+    "corner": {
+      "round": {
+        "value": "{core.000}",
         "type": "dimension"
       },
-      "150": {
-        "value": "12px",
+      "focus": {
+        "value": "{core.000}",
         "type": "dimension"
       },
-      "175": {
-        "value": "14px",
+      "xs": {
+        "value": "{core.000}",
         "type": "dimension"
       },
-      "200": {
-        "value": "16px",
+      "sm": {
+        "value": "{core.000}",
         "type": "dimension"
       },
-      "300": {
-        "value": "24px",
+      "md": {
+        "value": "{core.000}",
         "type": "dimension"
       },
-      "450": {
-        "value": "36px",
+      "lg": {
+        "value": "{core.000}",
         "type": "dimension"
       },
-      "600": {
-        "value": "48px",
-        "type": "dimension"
-      },
-      "1500": {
-        "value": "120px",
-        "type": "dimension"
-      },
-      "3100": {
-        "value": "248px",
-        "type": "dimension"
-      },
-      "4200": {
-        "value": "336px",
-        "type": "dimension"
-      },
-      "4500": {
-        "value": "360px",
-        "type": "dimension"
-      },
-      "6000": {
-        "value": "480px",
-        "type": "dimension"
-      },
-      "7500": {
-        "value": "1040px",
-        "type": "dimension"
-      },
-      "9600": {
-        "value": "768px",
-        "type": "dimension"
-      },
-      "12800": {
-        "value": "1024px",
-        "type": "dimension"
-      },
-      "18000": {
-        "value": "1440px",
-        "type": "dimension"
-      },
-      "000": {
-        "value": "0px",
-        "type": "dimension"
-      },
-      "025": {
-        "value": "2px",
-        "type": "dimension"
-      },
-      "050": {
-        "value": "4px",
+      "xl": {
+        "value": "{core.000}",
         "type": "dimension"
       }
     },
-    "sem": {
-      "corner": {
-        "round": {
-          "value": "{dimension.core.000}",
-          "type": "dimension"
-        },
-        "focus": {
-          "value": "{dimension.core.000}",
-          "type": "dimension"
-        },
-        "xs": {
-          "value": "{dimension.core.000}",
-          "type": "dimension"
-        },
-        "sm": {
-          "value": "{dimension.core.000}",
-          "type": "dimension"
-        },
-        "md": {
-          "value": "{dimension.core.000}",
-          "type": "dimension"
-        },
-        "lg": {
-          "value": "{dimension.core.000}",
-          "type": "dimension"
-        },
-        "xl": {
-          "value": "{dimension.core.000}",
-          "type": "dimension"
-        }
+    "gap": {
+      "2xs": {
+        "value": "{core.100}",
+        "type": "dimension"
       },
-      "gap": {
-        "2xs": {
-          "value": "{dimension.core.100}",
-          "type": "dimension"
-        },
-        "xs": {
-          "value": "{dimension.core.100}",
-          "type": "dimension"
-        },
-        "sm": {
-          "value": "{dimension.core.100}",
-          "type": "dimension"
-        },
-        "md": {
-          "value": "{dimension.core.100}",
-          "type": "dimension"
-        },
-        "lg": {
-          "value": "{dimension.core.100}",
-          "type": "dimension"
-        },
-        "xl": {
-          "value": "{dimension.core.100}",
-          "type": "dimension"
-        },
-        "section-gap": {
-          "value": "{dimension.core.100}",
-          "type": "dimension",
-          "description": "Espaciado por defecto entre secciones"
-        }
+      "xs": {
+        "value": "{core.100}",
+        "type": "dimension"
       },
-      "width": {
-        "2xs": {
-          "value": "{dimension.core.1500}",
-          "type": "dimension"
-        },
-        "xs": {
-          "value": "{dimension.core.3100}",
-          "type": "dimension"
-        },
-        "sm": {
-          "value": "{dimension.core.4200}",
-          "type": "dimension"
-        },
-        "md": {
-          "value": "{dimension.core.4200}",
-          "type": "dimension"
-        },
-        "lg": {
-          "value": "{dimension.core.18000}",
-          "type": "dimension"
-        },
-        "main": {
-          "value": "{dimension.core.18000}",
-          "type": "dimension"
-        }
+      "sm": {
+        "value": "{core.100}",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "{core.100}",
+        "type": "dimension"
+      },
+      "lg": {
+        "value": "{core.100}",
+        "type": "dimension"
+      },
+      "xl": {
+        "value": "{core.100}",
+        "type": "dimension"
+      },
+      "section-gap": {
+        "value": "{core.100}",
+        "type": "dimension",
+        "description": "Espaciado por defecto entre secciones"
+      }
+    },
+    "width": {
+      "2xs": {
+        "value": "{core.1500}",
+        "type": "dimension"
+      },
+      "xs": {
+        "value": "{core.3100}",
+        "type": "dimension"
+      },
+      "sm": {
+        "value": "{core.4200}",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "{core.4200}",
+        "type": "dimension"
+      },
+      "lg": {
+        "value": "{core.18000}",
+        "type": "dimension"
+      },
+      "main": {
+        "value": "{core.18000}",
+        "type": "dimension"
       }
     }
   }
