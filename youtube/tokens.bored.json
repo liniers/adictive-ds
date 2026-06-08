@@ -4,15 +4,15 @@
     "core": {
       "font-family": {
         "primary": {
-          "value": "Arial",
+          "value": "Times New Roman",
           "type": "string"
         },
         "secondary": {
-          "value": "Arial",
+          "value": "Times New Roman",
           "type": "string"
         },
         "tertiary": {
-          "value": "Arial",
+          "value": "Times New Roman",
           "type": "string"
         }
       },
@@ -39,7 +39,7 @@
         }
       }
     },
-    "semantic": {
+    "sem": {
       "display": {
         "l": {
           "font-weight": {
@@ -221,7 +221,7 @@
         }
       }
     },
-    "semantic": {
+    "sem": {
       "display": {
         "l": {
           "font-size": {

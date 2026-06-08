@@ -79,7 +79,7 @@
         "type": "dimension"
       }
     },
-    "semantic": {
+    "sem": {
       "corner": {
         "round": {
           "value": "999px",
