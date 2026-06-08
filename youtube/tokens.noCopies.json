@@ -3,15 +3,15 @@
   "core": {
     "font-family": {
       "primary": {
-        "value": "Times New Roman",
+        "value": "Flow Rounded",
         "type": "string"
       },
       "secondary": {
-        "value": "Times New Roman",
+        "value": "Flow Rounded",
         "type": "string"
       },
       "tertiary": {
-        "value": "Times New Roman",
+        "value": "Flow Rounded",
         "type": "string"
       }
     },
